@@ -64,3 +64,6 @@ def blurhashUpload():
             "message": "A server error occurred",
             "error": str(err)
         }, 500
+
+if __name__ == "__main__":
+    app.run(host='0.0.0.0')
